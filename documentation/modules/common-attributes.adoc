@@ -6,7 +6,7 @@
 :namespace: openshift-mtv
 :oc: oc
 :ocp: Red Hat OpenShift
-:ocp-name: OpenShift
+:ocp-name: OpenShift 
 :ocp-short: OpenShift
 // when updating the ocp-version, update the ocp-y-version
 :ocp-version: 4.18
@@ -18,8 +18,8 @@
 :project-full: Migration Toolkit for Virtualization
 :project-short: MTV
 :project-first: {project-full} ({project-short})
-:project-version: 2.8
-:project-z-version: 2.8.5
+:project-version: 2.9
+:project-z-version: 2.9.0
 :the: The
 :the-lc: the
 :virt: OpenShift Virtualization
@@ -30,6 +30,7 @@
 :a-rhv-short: a {rhv-short}
 :a-virt: an {virt}
 :manager: Manager
+:FeatureName: Storage Copy Offload
 
 // doc metadata
 :icons: font
