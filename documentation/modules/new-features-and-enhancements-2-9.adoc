@@ -6,11 +6,11 @@
 
 * In the {project-short} {project-z-version} user interface, you can set the `skipGuestConversion` field to `true` in the migration plan to raw copy the disk data of a VMware guest virtual machines (VM) to {rhv-full} during migration. You can use this feature to migrate VMs that fail during migration because of unsupported guest operating systems. link:https://issues.redhat.com/browse/MTV-2001[(MTV-2001)]
 
-* {project-short} {project-z-version} is integrated with the storage offloading plugin to delegate the disk data copy process to the storage arrays. The disk data is copied by the storage array after which a new Persistent Volume is created on {ocp}, which can be used by the virtual machines. Since the data copy function is not carried over an IP-based network, the storage offloading helps to copy multi-terabyte data from single disk VMs without clogging the network, resulting in faster migrations. link:https://issues.redhat.com/browse/MTV-2241[(MTV-2241)]
+* {project-short} {project-z-version} is integrated with the storage offloading plugin to delegate the disk data copy process to the storage arrays. The disk data is copied by the storage array, after which a new Persistent Volume is created on {ocp}, which can be used by the virtual machines. Since the data copy function is not carried over an IP-based network, the storage offloading helps to copy multi-terabyte data from single disk VMs without clogging the network, resulting in faster migrations. link:https://issues.redhat.com/browse/MTV-2241[(MTV-2241)]
 
 include::technology-preview.adoc[leveloffset=+1]
 
-* {project-short} {project-z-version} supports migrating an Open Virtual Appliance (OVA) file with multiple disks by mapping the OVA disks to multiple StorageClasses. link:https://issues.redhat.com/browse/MTV-1340[(MTV-1340)]
+* {project-short} {project-z-version} supports migrating an Open Virtual Appliance (OVA) file with multiple disks by mapping the OVA disks to multiple Storage Classes. link:https://issues.redhat.com/browse/MTV-1340[(MTV-1340)]
 
 * {project-short} {project-z-version} supports persistence of nested VMware VMs after migrations if nested VMs are configured at source. link:https://issues.redhat.com/browse/MTV-2495[(MTV-2495)]
 
