@@ -23,7 +23,6 @@ include::technology-preview.adoc[leveloffset=+1]
 * {project-short} {project-z-version} CLI allows you to add a `display-name` in the `annotations` field of the migration plan. The `display-name` you enter cannot be used for making API calls or CLI operations. link:https://issues.redhat.com/browse/MTV-2076[(MTV-2076)]
 
 * {project-short} {project-z-version} user interface has the following improvements:
-** Access the `Create Provider` page for supported providers from the *Overview* page in the {project-full} menu. 
-** Access the `Health` and the `Settings` tabs from the *Overview* page.
-** Use the upgraded plan wizard page in the UI.
-link:https://issues.redhat.com/browse/MTV-2210[(MTV-2210)]
+** Access the `Create Provider` page for supported providers from the *Overview* page in the {project-full} menu. link:https://issues.redhat.com/browse/MTV-2210[(MTV-2210)]
+** Access the `Health` and the `Settings` tabs from the *Overview* page. link:https://issues.redhat.com/browse/MTV-2210[(MTV-2210)]
+** Use the upgraded plan wizard page where the status of the plan depends on the statuses of the VM migrations. link:https://issues.redhat.com/browse/MTV-2547[(MTV-2547)]
